@@ -86,12 +86,12 @@
             "animationFPS": 15,
             "animationSpeedType": 0,
             "colour": {
-                "Value": 4278190080
+                "Value": 4294967295
             },
             "hspeed": 0,
             "htiled": false,
-            "spriteId": "00000000-0000-0000-0000-000000000000",
-            "stretch": false,
+            "spriteId": "58f295bf-04d9-4e18-925a-c9a49bf6b0de",
+            "stretch": true,
             "userdefined_animFPS": false,
             "vspeed": 0,
             "vtiled": false,
@@ -125,7 +125,7 @@
         "mvc": "1.0",
         "clearDisplayBuffer": true,
         "clearViewBackground": false,
-        "enableViews": false,
+        "enableViews": true,
         "inheritViewSettings": false
     },
     "views": [
@@ -134,20 +134,20 @@
             "modelName": "GMRView",
             "mvc": "1.0",
             "hborder": 32,
-            "hport": 768,
+            "hport": 400,
             "hspeed": -1,
-            "hview": 768,
+            "hview": 150,
             "inherit": false,
             "objId": "00000000-0000-0000-0000-000000000000",
             "vborder": 32,
-            "visible": false,
+            "visible": true,
             "vspeed": -1,
-            "wport": 1024,
-            "wview": 1024,
+            "wport": 600,
+            "wview": 400,
             "xport": 0,
-            "xview": 0,
+            "xview": 150,
             "yport": 0,
-            "yview": 0
+            "yview": 100
         },
         {
             "id": "e6ef07ed-0db8-4c3e-bfeb-aff01dc8b760",
