@@ -1,1 +1,0 @@
-timer = 0; //importante pra movimentação
