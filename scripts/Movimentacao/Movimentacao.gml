@@ -1,3 +1,4 @@
+//Movimentação
 if (keyboard_check(ord("W"))) {
 y -= 2;
 
@@ -11,3 +12,9 @@ x -= 2;
 x += 2;
 
 }
+
+//Não permite que o personagem sai da room
+x = min(x, room_width);
+x = max(x, 0);
+y = min(y, room_height);
+y = max(y, 0);
