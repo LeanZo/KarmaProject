@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "e3f93f58-c8c1-4ebe-9f43-aef12193ae8d",
+            "Value": {
+                "id": "8b2026b3-3769-4943-a42a-0d38b66bb695",
+                "resourcePath": "objects\\obj_config\\obj_config.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "121d3717-7377-4369-9ea4-e0a1a2da2bc3",
