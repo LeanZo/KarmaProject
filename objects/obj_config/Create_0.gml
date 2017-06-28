@@ -8,6 +8,4 @@ interruptor = true;
 //Calculo para manter o aspect ratio
 defaultCameraW = 600;
 defaultCameraH = 338;
-newCameraHpre = displayH / displayW;
-newCameraHpre2 = newCameraHpre * defaultCameraW;
-newCameraH = round(newCameraHpre2);
+newCameraH = round((displayH / displayW) * defaultCameraW );
