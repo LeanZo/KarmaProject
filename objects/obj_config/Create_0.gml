@@ -1,3 +1,5 @@
+
+//--------RELACIONADO AO FULLSCREEN---------------------------------//
 //Detecta resolução
 displayW = display_get_width();
 displayH = display_get_height();
@@ -9,3 +11,4 @@ interruptor = true;
 defaultCameraW = 600;
 defaultCameraH = 338;
 newCameraH = round((displayH / displayW) * defaultCameraW );
+//-------------------------------------------------------------------//
