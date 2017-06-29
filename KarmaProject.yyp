@@ -143,11 +143,27 @@
             }
         },
         {
+            "Key": "57662276-8960-4539-941e-32713cdc6549",
+            "Value": {
+                "id": "009655ef-9650-4714-b7eb-6dbd9c40b30b",
+                "resourcePath": "sprites\\spr_colisao\\spr_colisao.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "58f295bf-04d9-4e18-925a-c9a49bf6b0de",
             "Value": {
                 "id": "bebfc233-169f-4f89-8200-bece0299ed6f",
                 "resourcePath": "sprites\\bg_teste\\bg_teste.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5c0d3702-2f65-4121-92fe-c8f5bcefa4ce",
+            "Value": {
+                "id": "56387468-e2f0-4ca2-a95a-f7fad7bc03a0",
+                "resourcePath": "tilesets\\ts_colisao\\ts_colisao.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -244,6 +260,14 @@
                 "id": "b45f7bce-f66b-4572-9b17-554e75fb5717",
                 "resourcePath": "tilesets\\tileset_A4\\tileset_A4.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "84e5d5c9-f0c8-4e0e-9a33-b0794cfa5795",
+            "Value": {
+                "id": "62111375-b654-4135-87e6-4c85fc0bdb20",
+                "resourcePath": "scripts\\Globais\\Globais.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -383,6 +407,14 @@
             }
         },
         {
+            "Key": "d01f2f7a-9a6e-4fc6-950e-a1d84d091a02",
+            "Value": {
+                "id": "c9915f13-e26d-4bb7-b476-9a89a1b2a09d",
+                "resourcePath": "scripts\\Colisao\\Colisao.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d081debd-fd0f-4feb-9cb2-44eac324a743",
             "Value": {
                 "id": "5dc25d42-5df6-4a58-9cfc-7c9f615e892d",
@@ -456,7 +488,9 @@
         }
     ],
     "script_order": [
-        "8148ec5a-bf9f-4ea7-8d11-dfe775d4e4d3"
+        "84e5d5c9-f0c8-4e0e-9a33-b0794cfa5795",
+        "8148ec5a-bf9f-4ea7-8d11-dfe775d4e4d3",
+        "d01f2f7a-9a6e-4fc6-950e-a1d84d091a02"
     ],
     "tutorial": ""
 }

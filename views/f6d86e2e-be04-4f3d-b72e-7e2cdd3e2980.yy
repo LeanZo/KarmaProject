@@ -15,7 +15,8 @@
         "0d377ca6-07e9-4650-b028-d3f7cd31e71e",
         "cc5437d1-39d0-4fc4-8dbf-eb2a58028ded",
         "26539dbb-6ee6-4fcd-8d5c-eee260145e0f",
-        "bcbbf4b1-e0e5-42cd-a8c7-374c5530e224"
+        "bcbbf4b1-e0e5-42cd-a8c7-374c5530e224",
+        "57662276-8960-4539-941e-32713cdc6549"
     ],
     "filterType": "GMSprite",
     "folderName": "TileSets",
