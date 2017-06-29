@@ -157,8 +157,8 @@
                 "resourcePath": "sprites\\InacioNPC\\InacioNPC.yy",
                 "resourceType": "GMSprite"
             }
-         },
-         {
+        },
+        {
             "Key": "57662276-8960-4539-941e-32713cdc6549",
             "Value": {
                 "id": "009655ef-9650-4714-b7eb-6dbd9c40b30b",
@@ -503,6 +503,14 @@
             }
         },
         {
+            "Key": "f9088ee7-584a-4316-a77e-e327f0259593",
+            "Value": {
+                "id": "8c947b0c-ec71-4389-b91a-6fd96195f765",
+                "resourcePath": "objects\\obj_dialogueBox\\obj_dialogueBox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fd205974-7914-4fb7-802f-efedb47fba7a",
             "Value": {
                 "id": "accbd408-ed95-4d2d-812a-eff723f0d62b",
@@ -520,10 +528,10 @@
         }
     ],
     "script_order": [
-        "8148ec5a-bf9f-4ea7-8d11-dfe775d4e4d3",
-        "373ceec6-25c3-4a41-89f1-3698f17f7c41",
         "84e5d5c9-f0c8-4e0e-9a33-b0794cfa5795",
-        "d01f2f7a-9a6e-4fc6-950e-a1d84d091a02"
+        "8148ec5a-bf9f-4ea7-8d11-dfe775d4e4d3",
+        "d01f2f7a-9a6e-4fc6-950e-a1d84d091a02",
+        "373ceec6-25c3-4a41-89f1-3698f17f7c41"
     ],
     "tutorial": ""
 }
