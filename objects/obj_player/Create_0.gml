@@ -10,6 +10,7 @@ dir = DIR_STOP;
 Wallmap = global.WallMap;
 colidiu = false;
 
+walkmode = "foot";
 stamina_check = false;
 stamina_ready = true;
 //----PLAYER's STATUS-------------------
