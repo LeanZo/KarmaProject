@@ -1,4 +1,3 @@
-
 //--------RELACIONADO AO FULLSCREEN---------------------------------//
 //Detecta resolução
 displayW = display_get_width();

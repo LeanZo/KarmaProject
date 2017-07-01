@@ -12,3 +12,6 @@
 WallMap = layer_tilemap_get_id("Colisao");
 layer_set_visible("Colisao",false);		//Esconde a camada 'Colisao' caso esteja visivel
 global.WallMap = WallMap;
+
+//Define a fonte padrão
+draw_set_font(Smallif);

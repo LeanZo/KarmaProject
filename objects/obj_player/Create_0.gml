@@ -1,4 +1,5 @@
-Globais(); //Chama o script
+randomize();
+Globais();
 
 moving = false; //importante pra movimentação
 indexParadoTimer = 0; // importante pra movimentção 
