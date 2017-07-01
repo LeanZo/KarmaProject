@@ -14,7 +14,7 @@ if (stamina > max_stamina) stamina = max_stamina;
 //------------------------------------------------------------
 
 //Aleatoriza o primeiro passo do jogador
-if (indexParadoTimer = 0) image_index = choose (1,3);
+if (indexParadoTimer = 0) image_index = choose (0,2);
 
 //Inicia animação e indica qual movimento deve ser feito
 if ( keyboard_check(ord("A")) && !moving ) {
