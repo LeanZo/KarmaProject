@@ -10,6 +10,7 @@ Wallmap = global.WallMap;
 colidiu = false;
 
 stamina_check = false;
+stamina_ready = true;
 //----PLAYER's STATUS-------------------
 max_stamina = 100;
 stamina = 100;
