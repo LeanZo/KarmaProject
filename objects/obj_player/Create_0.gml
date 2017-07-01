@@ -1,7 +1,5 @@
 Globais(); //Chama o script
 
-target_x = x; //importante pra movimentação
-target_y = y; //importante pra movimentação
 moving = false; //importante pra movimentação
 indexParadoTimer = 0; // importante pra movimentção 
 image_speed = 0; //Inicia com a animação pausada
@@ -10,3 +8,11 @@ image_speed = 0; //Inicia com a animação pausada
 dir = DIR_STOP;
 Wallmap = global.WallMap;
 colidiu = false;
+
+stamina_check = false;
+//----PLAYER's STATUS-------------------
+max_stamina = 100;
+stamina = 100;
+
+//----SKILLS----------------------------
+skill_aerobica = 1;
