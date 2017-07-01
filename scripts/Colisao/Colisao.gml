@@ -27,9 +27,7 @@ with( _inst )
 		var tile2 = tilemap_get(WallMap, tx,ty2 )& tile_index_mask;
 		
 		if(( tile1!=0 ) || (tile2!=0)) {
-			//x = (tx<<TILE_SHIFT)-TILE_SIZE+(TILE_SIZE-_right);
-			x -= 3;
-			colidiu = true;
+			x = (tx<<TILE_SHIFT)-TILE_SIZE+(TILE_SIZE-_right);
 		}
 	}
 	
@@ -44,9 +42,7 @@ with( _inst )
 		var tile2 = tilemap_get(WallMap, tx,ty2 )& tile_index_mask;
 		
 		if(( tile1!=0 ) || (tile2!=0)) {
-		//	x = (x&~(TILE_SIZE-1))+_left;
-		x += 3;
-			colidiu = true;
+		x = (x&~(TILE_SIZE-1))+_left;
 		}
 	}
 	
@@ -60,9 +56,7 @@ with( _inst )
 		var tile2 = tilemap_get(WallMap, tx2,ty )& tile_index_mask;
 		 
 		if(( tile1!=0 ) || (tile2!=0)) {
-		//	y = (ty<<TILE_SHIFT)-(_bottom+1);
-		y -= 3;
-			colidiu = true;
+		y = (ty<<TILE_SHIFT)-(_bottom+1);
 		}
 	}
 	
@@ -76,9 +70,7 @@ with( _inst )
 		var tile2 = tilemap_get(WallMap, tx2,ty )& tile_index_mask;
 		
 		if(( tile1!=0 ) || (tile2!=0)) {
-		//	y = (ty<<TILE_SHIFT)+TILE_SIZE+_top+1;
-		y += 3;
-			colidiu = true;
+		y = (ty<<TILE_SHIFT)+TILE_SIZE+_top+1;
 		}
 	}
 	
