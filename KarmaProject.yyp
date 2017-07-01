@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "6194ee13-158c-4a29-b2c0-015ded2089fc",
+            "Value": {
+                "id": "8e3052db-699c-46fa-8bdb-7af57d2f4852",
+                "resourcePath": "fonts\\Smallif\\Smallif.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "64d7c974-72c1-401c-9f08-8baa555c0c84",
             "Value": {
                 "id": "89089817-36e1-49d8-8204-ad2bf79edeb9",
