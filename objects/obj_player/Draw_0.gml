@@ -1,5 +1,7 @@
 //Desenha o proprio player
+//shader_set(shader_teste);
 draw_self()
+//shader_reset();
 
 
 

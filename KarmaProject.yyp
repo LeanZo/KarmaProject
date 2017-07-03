@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "1798d38f-1d30-488f-940a-de586cb3168a",
+            "Value": {
+                "id": "98d0ed2c-222d-4f8e-b315-6d37c6fe4567",
+                "resourcePath": "shaders\\shr_time19\\shr_time19.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "1a683937-dfc2-4089-a2be-47886906de36",
             "Value": {
                 "id": "6ea8779f-e4b4-4528-b043-b9314fa46297",
@@ -79,11 +87,27 @@
             }
         },
         {
+            "Key": "1cc16a25-b95a-4c5f-89b4-a7c112a4374f",
+            "Value": {
+                "id": "4d4057ea-2080-479e-9da5-24641e9a9216",
+                "resourcePath": "shaders\\shr_time20\\shr_time20.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "1d0fff3d-4449-4f06-b3e2-261ca9040598",
             "Value": {
                 "id": "b41a3434-fb04-4ae8-8bcb-25b9d853591d",
                 "resourcePath": "views\\1d0fff3d-4449-4f06-b3e2-261ca9040598.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2132cc4b-9566-42de-942a-fbc914c8f213",
+            "Value": {
+                "id": "fa0b4d00-e6cb-4ed9-8d42-c1757d532582",
+                "resourcePath": "objects\\obj_relogio\\obj_relogio.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -252,6 +276,14 @@
                 "id": "2aa6f9e8-fc39-4c70-ba17-e06d77252ccb",
                 "resourcePath": "views\\66ce3ae1-e76d-4230-9775-99d4306f6919.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6851014e-ecc0-498e-8e25-ef4880fdf9da",
+            "Value": {
+                "id": "27b27490-d84a-4a86-89f2-693e7b49f84b",
+                "resourcePath": "shaders\\shr_time15\\shr_time15.yy",
+                "resourceType": "GMShader"
             }
         },
         {
@@ -431,6 +463,22 @@
             }
         },
         {
+            "Key": "aaea0e9d-8c82-4a21-bb63-5de1a133b71f",
+            "Value": {
+                "id": "b10cb377-5851-4d83-98bb-cc622a2082ee",
+                "resourcePath": "shaders\\shr_time16\\shr_time16.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "b6c4ffae-98e8-4466-b4b7-e9b4b16abe2b",
+            "Value": {
+                "id": "a900a502-23ed-4e90-a4ea-dffed70dba33",
+                "resourcePath": "shaders\\shr_time13\\shr_time13.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "b6ca5d65-9535-47c7-a7f6-4d3a86dcd15f",
             "Value": {
                 "id": "f03002f6-f1ff-42f3-b1f2-214fcd517015",
@@ -460,6 +508,14 @@
                 "id": "f2958296-9236-433f-a658-50e5eb66dc71",
                 "resourcePath": "objects\\Npc_Object\\Npc_Object.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c0a56a54-1643-4c6b-b6bf-5bd3de1aabcd",
+            "Value": {
+                "id": "44f0df5d-0984-4713-8e56-1a6f35df4561",
+                "resourcePath": "shaders\\shr_time12\\shr_time12.yy",
+                "resourceType": "GMShader"
             }
         },
         {
@@ -543,11 +599,27 @@
             }
         },
         {
+            "Key": "dab404ad-da8f-474e-b4bb-dcbfad3c0db2",
+            "Value": {
+                "id": "12f7d691-7002-4c18-9c71-88444a44661c",
+                "resourcePath": "views\\dab404ad-da8f-474e-b4bb-dcbfad3c0db2.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "dba907e2-3133-4d27-9324-31d0c3b9fffa",
             "Value": {
                 "id": "b120441b-4cd9-40a5-bb17-ffe1b7264c40",
                 "resourcePath": "sprites\\TileD\\TileD.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dcc61f7f-299f-4af4-a190-e3f2d5d68846",
+            "Value": {
+                "id": "744b66dc-7017-4333-8b60-ab0bf8093c13",
+                "resourcePath": "shaders\\shr_time17\\shr_time17.yy",
+                "resourceType": "GMShader"
             }
         },
         {
@@ -559,11 +631,35 @@
             }
         },
         {
+            "Key": "e5fdb791-a2d8-4320-a901-72ecc4deeed9",
+            "Value": {
+                "id": "0871ecb8-cfd9-4d06-a00a-603ff95a1409",
+                "resourcePath": "shaders\\shr_time14\\shr_time14.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "e8216947-1869-4d0d-8f01-a72d2e788504",
+            "Value": {
+                "id": "2a0694f0-1d8d-4d6e-abac-1eef746e165e",
+                "resourcePath": "objects\\obj_timeShader\\obj_timeShader.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e962b137-30eb-403c-bfd1-45473b82e6ce",
             "Value": {
                 "id": "b8cec942-1928-4d3d-84c7-844eca94ba70",
                 "resourcePath": "scripts\\MovimentacaoSk8\\MovimentacaoSk8.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "eb423e56-7eba-4b0f-80c7-1ec344730679",
+            "Value": {
+                "id": "01ee96e8-5121-4eb7-8ce3-b6046e911bf9",
+                "resourcePath": "shaders\\shr_time18\\shr_time18.yy",
+                "resourceType": "GMShader"
             }
         },
         {
