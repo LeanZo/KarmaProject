@@ -12,5 +12,5 @@ if (timer == 0) {
 		hora = 0;
 		minuto = 00;
 	}
-	timer = 60;
+	timer = 1800;
 }
