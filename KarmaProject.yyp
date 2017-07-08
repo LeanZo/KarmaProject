@@ -639,6 +639,14 @@
             }
         },
         {
+            "Key": "dfe1c012-2a52-471b-990c-1ef06a5260a8",
+            "Value": {
+                "id": "9f263b0c-7ce2-46d0-8582-9350de0cfc2b",
+                "resourcePath": "sprites\\ind_dialogueBoxEscolha\\ind_dialogueBoxEscolha.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e3f93f58-c8c1-4ebe-9f43-aef12193ae8d",
             "Value": {
                 "id": "8b2026b3-3769-4943-a42a-0d38b66bb695",
@@ -679,11 +687,27 @@
             }
         },
         {
+            "Key": "f0d283b7-70a1-45ec-b2f6-796aa7329a45",
+            "Value": {
+                "id": "62ff8aa1-7fb3-48c6-9c8c-553461cec109",
+                "resourcePath": "scripts\\DialogueBoxEscolha\\DialogueBoxEscolha.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "121d3717-7377-4369-9ea4-e0a1a2da2bc3",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f4fa2dea-7266-4ad2-9c58-47717bd655c3",
+            "Value": {
+                "id": "169691e1-3b8b-493f-bb63-c6bf73a91e9e",
+                "resourcePath": "objects\\obj_dialogueBoxEscolha\\obj_dialogueBoxEscolha.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -740,7 +764,8 @@
         "8148ec5a-bf9f-4ea7-8d11-dfe775d4e4d3",
         "d01f2f7a-9a6e-4fc6-950e-a1d84d091a02",
         "373ceec6-25c3-4a41-89f1-3698f17f7c41",
-        "e962b137-30eb-403c-bfd1-45473b82e6ce"
+        "e962b137-30eb-403c-bfd1-45473b82e6ce",
+        "f0d283b7-70a1-45ec-b2f6-796aa7329a45"
     ],
     "tutorial": ""
 }
