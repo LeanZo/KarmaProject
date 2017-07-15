@@ -6,14 +6,14 @@
 fim_do_dia = false;
 dias_do_ano = "1";
 
-if (dias_do_ano == "366"){
+if (dias_do_ano == "60"){
 	Ano += "1";
 }
 
 if (fim_do_dia == true){
-	if (Dia == "31"){
+	if (Dia == "15"){
 	Dia = "0";
-		if (Mes == "12"){
+		if (Mes == "4"){
 		Mes = "0";
 		}
 	Mes += "1"
