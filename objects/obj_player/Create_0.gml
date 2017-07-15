@@ -10,6 +10,8 @@ dir = DIR_STOP;
 Wallmap = global.WallMap;
 colidiu = false;
 
+dialogando = false;
+
 walkmode = "foot";
 stamina_is_using = false;
 stamina_ready = true;

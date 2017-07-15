@@ -1,3 +1,4 @@
+//---FULLSCREEN------------------
 if (keyboard_check_pressed(vk_f12)) {
 	
 	if (interruptor) { //colocar fullscreen
@@ -27,3 +28,8 @@ if (keyboard_check_pressed(vk_f12)) {
 		interruptor = true;
 	}
 }
+//------------------------------
+
+//---Reinicia o Jogo------------
+if(keyboard_check_pressed(vk_enter)) game_restart();
+//------------------------------

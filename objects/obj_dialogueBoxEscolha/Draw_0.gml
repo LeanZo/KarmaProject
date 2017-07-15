@@ -20,6 +20,9 @@ for (var i = array_length_1d(resposta) - 1; i > -1; i--) {
 draw_set_color(c_white);
 draw_text(x, y - espacamento, resposta[i]);
 
+respostaY[i] = (y - espacamento) + (string_height(resposta[i])/2); //Importante para os Triângulos
+respostaWidth[i] = string_width(resposta[i]);                      //Importante para os Triângulos
+
 espacamento += 20;
 }
 //-----------------------------
@@ -33,8 +36,38 @@ draw_text(x, y - espacamento, frase);
 draw_set_halign(fa_left);
 //-----------------------------
 
+//---Lógica dos Triângulos-----
+if(keyboard_check_pressed(ord("W"))) {
+	if(iTriangulo = 0) {
+		iTriangulo = array_length_1d(resposta) - 1;
+	} else {
+		iTriangulo -= 1;
+	}
+} else if(keyboard_check_pressed(ord("S"))) {
+	if(iTriangulo = array_length_1d(resposta) - 1) {
+		iTriangulo = 0;
+	} else {
+		iTriangulo += 1;
+	}
+}
+//-----------------------------
+
+//---Desenha os Triângulos-----
+var xWidth = respostaWidth[iTriangulo]/2;
+draw_set_color(c_white);
+draw_triangle(x - xWidth - 9, respostaY[iTriangulo] - 5, x - xWidth - 9, respostaY[iTriangulo] + 5, x - xWidth - 4, respostaY[iTriangulo],false);
+draw_triangle(x + xWidth + 5, respostaY[iTriangulo] + 5, x + xWidth + 5, respostaY[iTriangulo] - 5, x + xWidth, respostaY[iTriangulo],false);
+//-----------------------------
+
+//---Escolher a resposta e finalizar--------
+if (keyboard_check_pressed(ord("E"))) {
+	Caller.resposta = iTriangulo;
+	obj_player.dialogando = false;
+	instance_destroy();
+}
+//------------------------------------------
+
+
+
 }
 //-------------------------------------------------------------------------------
-
-
-

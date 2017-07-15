@@ -2,4 +2,5 @@
 controle = true;
 controleDeLaco = false;
 maxWidth = 0;
+iTriangulo = 0;
 //------------------------------------------------------
