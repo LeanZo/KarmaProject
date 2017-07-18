@@ -1,8 +1,8 @@
 if (dialogando) {
 
 	if (DialogueInacio){
-		DialogueBox(60, "Oi, tudo bem?", "Vamos testar o-", "Novo sistema de-", "Escolhas!");
-		timer = 60 * 4;
+		DialogueBox(60, "Oi, tudo bem?", "Vamos testar", "A nova Fonte!!!");
+		timer = 60 * 3;
 		DialogueInacio = false;
 		DialogueInacio2 = false;
 		DialogueInacio2Resp = false;

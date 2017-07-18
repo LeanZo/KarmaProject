@@ -16,4 +16,4 @@ global.WallMap = WallMap;
 //layer_set_visible("lay_config",false);		//Esconde a camada 'lay_config' caso esteja visivel
 
 //Define a fonte padrão
-draw_set_font(Smallif);
+draw_set_font(fnt_KarmaSuture);

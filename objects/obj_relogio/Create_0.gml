@@ -1,5 +1,5 @@
 timer = 1800; //1800
-hora = 3;
+hora = 12;
 minuto = 00;
 minutoCounter = 0;
 relogioParado = false;
