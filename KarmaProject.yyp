@@ -79,27 +79,11 @@
             }
         },
         {
-            "Key": "1798d38f-1d30-488f-940a-de586cb3168a",
-            "Value": {
-                "id": "98d0ed2c-222d-4f8e-b315-6d37c6fe4567",
-                "resourcePath": "shaders\\shr_time19\\shr_time19.yy",
-                "resourceType": "GMShader"
-            }
-        },
-        {
             "Key": "1a683937-dfc2-4089-a2be-47886906de36",
             "Value": {
                 "id": "6ea8779f-e4b4-4528-b043-b9314fa46297",
                 "resourcePath": "views\\1a683937-dfc2-4089-a2be-47886906de36.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "1cc16a25-b95a-4c5f-89b4-a7c112a4374f",
-            "Value": {
-                "id": "4d4057ea-2080-479e-9da5-24641e9a9216",
-                "resourcePath": "shaders\\shr_time20\\shr_time20.yy",
-                "resourceType": "GMShader"
             }
         },
         {
@@ -132,6 +116,14 @@
                 "id": "e1543a95-12e9-494b-a3aa-5212777c5cb4",
                 "resourcePath": "views\\26f42269-771c-463a-847b-1eaea3fa511f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "311a3d01-96f3-451c-9304-693384ed4ea4",
+            "Value": {
+                "id": "83a226b2-d4d6-4be4-9c1c-a6fc7211460e",
+                "resourcePath": "objects\\obj_DayNightRed\\obj_DayNightRed.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -268,14 +260,6 @@
                 "id": "2aa6f9e8-fc39-4c70-ba17-e06d77252ccb",
                 "resourcePath": "views\\66ce3ae1-e76d-4230-9775-99d4306f6919.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "6851014e-ecc0-498e-8e25-ef4880fdf9da",
-            "Value": {
-                "id": "27b27490-d84a-4a86-89f2-693e7b49f84b",
-                "resourcePath": "shaders\\shr_time15\\shr_time15.yy",
-                "resourceType": "GMShader"
             }
         },
         {
@@ -431,6 +415,14 @@
             }
         },
         {
+            "Key": "8eea2064-c707-47af-8e6e-aaa0bdeb4cb2",
+            "Value": {
+                "id": "3d23d3b1-a603-4ab0-9ad7-94ac6da462ac",
+                "resourcePath": "sprites\\ind_DayNight\\ind_DayNight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "938edefd-8ff3-449f-9fb4-58a296c0939e",
             "Value": {
                 "id": "356bad58-97b8-4f13-80b6-5d8cf723abff",
@@ -442,8 +434,16 @@
             "Key": "9458c48b-f081-4fb9-b6a8-160cc6451efb",
             "Value": {
                 "id": "2029a190-ee82-41d8-9ea2-9ffb42cd93d1",
-                "resourcePath": "sprites\\ind_timeShader\\ind_timeShader.yy",
+                "resourcePath": "sprites\\ind_timeControl\\ind_timeControl.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9e99d680-c93c-4884-bc3a-76cef592ba5c",
+            "Value": {
+                "id": "07230a77-f5a0-4de5-b59c-28be497d4acc",
+                "resourcePath": "objects\\obj_DayNight\\obj_DayNight.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -468,22 +468,6 @@
                 "id": "be45cc07-4ce3-47a6-a047-2bc06b8db046",
                 "resourcePath": "views\\aa9f3028-335f-4782-a4ac-4428cd2d1ea0.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "aaea0e9d-8c82-4a21-bb63-5de1a133b71f",
-            "Value": {
-                "id": "b10cb377-5851-4d83-98bb-cc622a2082ee",
-                "resourcePath": "shaders\\shr_time16\\shr_time16.yy",
-                "resourceType": "GMShader"
-            }
-        },
-        {
-            "Key": "b6c4ffae-98e8-4466-b4b7-e9b4b16abe2b",
-            "Value": {
-                "id": "a900a502-23ed-4e90-a4ea-dffed70dba33",
-                "resourcePath": "shaders\\shr_time13\\shr_time13.yy",
-                "resourceType": "GMShader"
             }
         },
         {
@@ -524,14 +508,6 @@
                 "id": "839aa7c3-4299-4fcb-b1ba-e4b59f0512f6",
                 "resourcePath": "views\\bed32dee-1295-4f41-a5b5-bcc0962bc353.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "c0a56a54-1643-4c6b-b6bf-5bd3de1aabcd",
-            "Value": {
-                "id": "44f0df5d-0984-4713-8e56-1a6f35df4561",
-                "resourcePath": "shaders\\shr_time12\\shr_time12.yy",
-                "resourceType": "GMShader"
             }
         },
         {
@@ -591,11 +567,27 @@
             }
         },
         {
+            "Key": "d3797224-b2ea-48a8-965c-dea2830880b0",
+            "Value": {
+                "id": "db49e5a2-3d03-4e8c-9e8b-23fde56c29b0",
+                "resourcePath": "objects\\obj_DayNightFuchsia\\obj_DayNightFuchsia.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d6823309-7e73-4d05-953a-c0fa4f4cf440",
             "Value": {
                 "id": "82c45882-9265-4f37-818a-4bba6e3cd702",
                 "resourcePath": "sprites\\spr_skateDown\\spr_skateDown.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d7012e61-52d5-4cf6-9ef4-f515a39be1d1",
+            "Value": {
+                "id": "b95f0c4f-aea5-4759-a549-cb1c8e72ca33",
+                "resourcePath": "objects\\obj_DayNightNavy\\obj_DayNightNavy.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -615,10 +607,10 @@
             }
         },
         {
-            "Key": "dab404ad-da8f-474e-b4bb-dcbfad3c0db2",
+            "Key": "d9f8648f-0643-4c08-b67e-1426345d07bc",
             "Value": {
-                "id": "12f7d691-7002-4c18-9c71-88444a44661c",
-                "resourcePath": "views\\dab404ad-da8f-474e-b4bb-dcbfad3c0db2.yy",
+                "id": "257d05a2-13ac-4990-8ea3-f7195411ecdd",
+                "resourcePath": "views\\d9f8648f-0643-4c08-b67e-1426345d07bc.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -631,11 +623,19 @@
             }
         },
         {
-            "Key": "dcc61f7f-299f-4af4-a190-e3f2d5d68846",
+            "Key": "dc38e25b-75bf-4bf1-9beb-d052a551ea13",
             "Value": {
-                "id": "744b66dc-7017-4333-8b60-ab0bf8093c13",
-                "resourcePath": "shaders\\shr_time17\\shr_time17.yy",
-                "resourceType": "GMShader"
+                "id": "359bf92b-223d-4ccb-b167-756713f71c1b",
+                "resourcePath": "views\\dc38e25b-75bf-4bf1-9beb-d052a551ea13.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "de9923f2-18f2-4f64-9d77-5b6950c6e8a4",
+            "Value": {
+                "id": "cf4e743b-f361-4994-a882-76b0879ec2e2",
+                "resourcePath": "scripts\\UpdateDayNight\\UpdateDayNight.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -655,18 +655,10 @@
             }
         },
         {
-            "Key": "e5fdb791-a2d8-4320-a901-72ecc4deeed9",
-            "Value": {
-                "id": "0871ecb8-cfd9-4d06-a00a-603ff95a1409",
-                "resourcePath": "shaders\\shr_time14\\shr_time14.yy",
-                "resourceType": "GMShader"
-            }
-        },
-        {
             "Key": "e8216947-1869-4d0d-8f01-a72d2e788504",
             "Value": {
                 "id": "2a0694f0-1d8d-4d6e-abac-1eef746e165e",
-                "resourcePath": "objects\\obj_timeShader\\obj_timeShader.yy",
+                "resourcePath": "objects\\obj_timeControl\\obj_timeControl.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -676,14 +668,6 @@
                 "id": "b8cec942-1928-4d3d-84c7-844eca94ba70",
                 "resourcePath": "scripts\\MovimentacaoSk8\\MovimentacaoSk8.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "eb423e56-7eba-4b0f-80c7-1ec344730679",
-            "Value": {
-                "id": "01ee96e8-5121-4eb7-8ce3-b6046e911bf9",
-                "resourcePath": "shaders\\shr_time18\\shr_time18.yy",
-                "resourceType": "GMShader"
             }
         },
         {
@@ -765,7 +749,8 @@
         "d01f2f7a-9a6e-4fc6-950e-a1d84d091a02",
         "373ceec6-25c3-4a41-89f1-3698f17f7c41",
         "e962b137-30eb-403c-bfd1-45473b82e6ce",
-        "f0d283b7-70a1-45ec-b2f6-796aa7329a45"
+        "f0d283b7-70a1-45ec-b2f6-796aa7329a45",
+        "de9923f2-18f2-4f64-9d77-5b6950c6e8a4"
     ],
     "tutorial": ""
 }
