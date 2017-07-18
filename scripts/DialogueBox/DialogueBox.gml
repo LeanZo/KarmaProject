@@ -8,6 +8,7 @@ for (var i = 0; i < argument_count ; i++){
 var boxId = instance_create_layer(other.x, other.y, "DialogueBox", obj_dialogueBox);
 
 //Passa os argumentos pro obj_dialogueBox
+boxId.Caller = other.id;
 boxId.total = argument_count - 1;
 boxId.timer = argumento[0];
 boxId.timerOriginal = argumento[0];

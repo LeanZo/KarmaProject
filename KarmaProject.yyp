@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "1c986d74-2ddb-4f14-9c14-ce6f1381ca53",
+            "Value": {
+                "id": "b96a832d-7d4a-4307-bf64-8f5508338b47",
+                "resourcePath": "shaders\\shd_DialogueBoxBordaPreto\\shd_DialogueBoxBordaPreto.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "1d0fff3d-4449-4f06-b3e2-261ca9040598",
             "Value": {
                 "id": "b41a3434-fb04-4ae8-8bcb-25b9d853591d",
@@ -159,6 +167,14 @@
             }
         },
         {
+            "Key": "374dabfd-1d64-4e84-a9c9-c571c6018fa5",
+            "Value": {
+                "id": "3a35faee-f7c1-4c27-950e-447e2dbc86cc",
+                "resourcePath": "sprites\\meio_ESQ\\meio_ESQ.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3975e306-818e-4eb7-9e7e-1e281734a732",
             "Value": {
                 "id": "d35b4273-8741-4fe5-bac5-bc58c2a64fb3",
@@ -223,11 +239,35 @@
             }
         },
         {
+            "Key": "583c63bf-71b7-4766-bf70-aad588f97dcb",
+            "Value": {
+                "id": "5e720074-adbd-4026-8dba-a29b842200b8",
+                "resourcePath": "sprites\\meio_DIR\\meio_DIR.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "595f2e62-a68e-4ae4-a07f-c4c409a66f4d",
+            "Value": {
+                "id": "a254fb3e-2eca-42d4-a9c9-0f03449e617b",
+                "resourcePath": "sprites\\meio_INF\\meio_INF.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5c0d3702-2f65-4121-92fe-c8f5bcefa4ce",
             "Value": {
                 "id": "56387468-e2f0-4ca2-a95a-f7fad7bc03a0",
                 "resourcePath": "tilesets\\ts_colisao\\ts_colisao.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "5c5b92d9-7e3e-40c0-b6c3-5c8b646a4bff",
+            "Value": {
+                "id": "b385e0a0-d1b8-42a1-8f59-a6431a137a0e",
+                "resourcePath": "views\\5c5b92d9-7e3e-40c0-b6c3-5c8b646a4bff.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -255,11 +295,27 @@
             }
         },
         {
+            "Key": "66034bf2-b2ae-492d-9dea-12b621244239",
+            "Value": {
+                "id": "779a61f5-0cb2-43e7-9ecf-e0d231ef3939",
+                "resourcePath": "sprites\\canto_INF_DIR\\canto_INF_DIR.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "66ce3ae1-e76d-4230-9775-99d4306f6919",
             "Value": {
                 "id": "2aa6f9e8-fc39-4c70-ba17-e06d77252ccb",
                 "resourcePath": "views\\66ce3ae1-e76d-4230-9775-99d4306f6919.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "67c6a368-f6b6-4089-a5c6-5896d8b9d356",
+            "Value": {
+                "id": "755cc537-47dd-4921-9181-39cdca04ed88",
+                "resourcePath": "fonts\\fnt_KarmaFuture\\fnt_KarmaFuture.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -359,11 +415,27 @@
             }
         },
         {
+            "Key": "8512972f-8647-467c-bf9e-10485b30bb2e",
+            "Value": {
+                "id": "c0acc0e5-861f-43a5-b528-e22a650ad63c",
+                "resourcePath": "sprites\\canto_SUP_DIR\\canto_SUP_DIR.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "859ccad3-9b66-4c98-ba43-0b5ce4103c7a",
             "Value": {
                 "id": "af006d15-e67a-4d5c-925c-7a905493dfa6",
                 "resourcePath": "views\\859ccad3-9b66-4c98-ba43-0b5ce4103c7a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "85b1e336-05ff-4396-b980-3fe5e4df6191",
+            "Value": {
+                "id": "5881f265-e63f-49f8-aa5f-0b678e5b053c",
+                "resourcePath": "fonts\\fnt_KarmaSuture\\fnt_KarmaSuture.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -415,6 +487,14 @@
             }
         },
         {
+            "Key": "8e329572-b84a-4a3d-aa1e-e06672b8a8e2",
+            "Value": {
+                "id": "aa55db62-ffdf-40b5-a6ca-db42832022eb",
+                "resourcePath": "views\\8e329572-b84a-4a3d-aa1e-e06672b8a8e2.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8eea2064-c707-47af-8e6e-aaa0bdeb4cb2",
             "Value": {
                 "id": "3d23d3b1-a603-4ab0-9ad7-94ac6da462ac",
@@ -435,6 +515,14 @@
             "Value": {
                 "id": "2029a190-ee82-41d8-9ea2-9ffb42cd93d1",
                 "resourcePath": "sprites\\ind_timeControl\\ind_timeControl.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9cf838ac-323c-4034-a6ae-20d54d2558ff",
+            "Value": {
+                "id": "40eaeaf3-cc93-4395-902d-671ea8c56acf",
+                "resourcePath": "sprites\\canto_SUP_ESQ\\canto_SUP_ESQ.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -468,6 +556,14 @@
                 "id": "be45cc07-4ce3-47a6-a047-2bc06b8db046",
                 "resourcePath": "views\\aa9f3028-335f-4782-a4ac-4428cd2d1ea0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "acd2dde0-20c0-455a-85a3-d7938dcce51a",
+            "Value": {
+                "id": "faa27be6-0512-43f7-a81e-5dd97a644963",
+                "resourcePath": "sprites\\meio_SUP\\meio_SUP.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -719,6 +815,22 @@
             }
         },
         {
+            "Key": "faa4601c-8eae-4d22-aa06-b4b51f4859d4",
+            "Value": {
+                "id": "b1a1dfc3-17a4-4cbd-b5c0-65213df16bb8",
+                "resourcePath": "sprites\\canto_INF_ESQ\\canto_INF_ESQ.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fb5f662f-919d-467a-919b-4523adeb23fc",
+            "Value": {
+                "id": "0449a746-1d48-47a9-a6b2-b68aa813c146",
+                "resourcePath": "views\\fb5f662f-919d-467a-919b-4523adeb23fc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "fd205974-7914-4fb7-802f-efedb47fba7a",
             "Value": {
                 "id": "accbd408-ed95-4d2d-812a-eff723f0d62b",
@@ -747,8 +859,8 @@
         "84e5d5c9-f0c8-4e0e-9a33-b0794cfa5795",
         "8148ec5a-bf9f-4ea7-8d11-dfe775d4e4d3",
         "d01f2f7a-9a6e-4fc6-950e-a1d84d091a02",
-        "373ceec6-25c3-4a41-89f1-3698f17f7c41",
         "e962b137-30eb-403c-bfd1-45473b82e6ce",
+        "373ceec6-25c3-4a41-89f1-3698f17f7c41",
         "f0d283b7-70a1-45ec-b2f6-796aa7329a45",
         "de9923f2-18f2-4f64-9d77-5b6950c6e8a4"
     ],
