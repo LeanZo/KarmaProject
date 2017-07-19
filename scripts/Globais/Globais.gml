@@ -1,5 +1,14 @@
 //Inicializa as variaveis e funções globais
 
+//---Inicia com o VSync ligado-------------
+display_reset(0, true);
+global.vsync = true;
+//-----------------------------------------
+
+//---Define que o jogo rode a 60 FPS-------
+game_set_speed(60, gamespeed_fps);
+//-----------------------------------------
+
 //Tem a ver com a movimentação e colisão, talvez seja retirado no futuro
 #macro DIR_STOP		0
 #macro DIR_UP		1
