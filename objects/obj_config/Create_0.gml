@@ -1,3 +1,7 @@
+//---Variaveis--------------------
+jogoPausado = false; //VAriavel que determina se o jogo esta pausado ou não
+//--------------------------------
+
 //--------RELACIONADO AO FULLSCREEN---------------------------------//
 //Detecta resolução
 displayW = display_get_width();

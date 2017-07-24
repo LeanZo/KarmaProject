@@ -1,3 +1,4 @@
+if (!obj_config.jogoPausado) {
 //timer--;
 if (!relogioParado) {
 
@@ -27,5 +28,13 @@ if (minuto == 60) {
 		minuto = 00;
 	}
 }
+
+}
+
+
+
+
+
+
 
 }

@@ -1,3 +1,8 @@
+if (!obj_config.jogoPausado){
+
+
+
+
 //---Pausa o filtro caso o relogio esteja parado----------------------------------
 if (!obj_relogio.relogioParado) {
 
@@ -84,3 +89,11 @@ switch (obj_relogio.hora) {
 
 }
 //--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+}

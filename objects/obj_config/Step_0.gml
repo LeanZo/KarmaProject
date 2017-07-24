@@ -30,6 +30,16 @@ if (keyboard_check_pressed(vk_f12)) {
 }
 //------------------------------
 
+//---Pause Menu-----------------
+if (keyboard_check_pressed(vk_escape)) {
+	if (!jogoPausado) {
+	jogoPausado = true;
+	} else {
+	jogoPausado = false;
+	}
+}
+//------------------------------
+
 //---Reinicia o Jogo------------
 if(keyboard_check_pressed(vk_enter)) game_restart();
 //------------------------------

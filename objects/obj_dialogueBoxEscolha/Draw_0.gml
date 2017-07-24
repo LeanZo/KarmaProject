@@ -47,6 +47,7 @@ shader_reset();
 //---RESPOSTAS-----------------
 for (var i = array_length_1d(resposta) - 1; i > -1; i--) {
 
+draw_set_font(fnt_KarmaSuture);
 draw_set_color(c_white);
 draw_text(x, y - espacamento, resposta[i]);
 
@@ -59,6 +60,7 @@ espacamento += 20;
 
 //---FRASE/PERGUNTA------------
 draw_set_color(c_white);
+draw_set_font(fnt_KarmaSuture);
 draw_text(x, y - espacamento, frase);
 //-----------------------------
 

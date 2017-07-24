@@ -6,7 +6,7 @@ dx = 0;
 
 
 //----Stamina IF's--------------------------------------------
-if (keyboard_check_released(vk_shift)) {stamina_is_using = false; stamina_ready = true;}
+if (!keyboard_check(vk_shift)) {stamina_is_using = false; stamina_ready = true;}
 
 if (stamina == 0 && stamina_is_using) {stamina_is_using = false; stamina_ready = false;}
 

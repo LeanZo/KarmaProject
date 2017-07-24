@@ -33,6 +33,7 @@ shader_reset();
 //---FRASE--------------
 draw_set_halign(fa_center);
 draw_set_color(c_white);
+draw_set_font(fnt_KarmaSuture);
 draw_text(x, y, frase[i]);
 draw_set_halign(fa_left);
 //----------------------
