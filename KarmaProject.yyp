@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "1c84c58f-0369-453d-95a7-7f2366c3d458",
+            "Value": {
+                "id": "967368fa-a120-4f10-9bab-4b8a9659ee27",
+                "resourcePath": "sprites\\m_Continue\\m_Continue.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1c986d74-2ddb-4f14-9c14-ce6f1381ca53",
             "Value": {
                 "id": "b96a832d-7d4a-4307-bf64-8f5508338b47",
@@ -123,6 +131,14 @@
             "Value": {
                 "id": "e1543a95-12e9-494b-a3aa-5212777c5cb4",
                 "resourcePath": "views\\26f42269-771c-463a-847b-1eaea3fa511f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2b422a21-51ce-432d-b787-0811e7f1d881",
+            "Value": {
+                "id": "515ff092-79ee-40f2-bf11-20cf896a4618",
+                "resourcePath": "views\\2b422a21-51ce-432d-b787-0811e7f1d881.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -187,6 +203,14 @@
             "Value": {
                 "id": "d35b4273-8741-4fe5-bac5-bc58c2a64fb3",
                 "resourcePath": "sprites\\spr_skateUp\\spr_skateUp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "39e4e2f3-d4ea-4354-9ecd-8493980bd76e",
+            "Value": {
+                "id": "8927d6d8-4878-4101-b43f-09aa619335b8",
+                "resourcePath": "sprites\\m_ContinueDark\\m_ContinueDark.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -396,6 +420,14 @@
                 "id": "cb48f73a-d469-4a39-95e4-ca2af631df15",
                 "resourcePath": "tilesets\\tileset_A2\\tileset_A2.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "762493be-2146-4b34-ba3f-5e5de3b2074c",
+            "Value": {
+                "id": "f54efec3-d8b5-4429-9846-7cd7f966602f",
+                "resourcePath": "sprites\\m_Sair\\m_Sair.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -868,6 +900,14 @@
                 "id": "b8cec942-1928-4d3d-84c7-844eca94ba70",
                 "resourcePath": "scripts\\MovimentacaoSk8\\MovimentacaoSk8.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ecf6f438-6d6b-4394-ba8d-404047776570",
+            "Value": {
+                "id": "0ccf6ade-b72d-44c5-a2d7-4741a06b70e4",
+                "resourcePath": "sprites\\m_NewGame\\m_NewGame.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
