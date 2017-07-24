@@ -1,8 +1,13 @@
 if (DEBUG) {
-
+//---Controlar o relogio------------------------
 if (!instance_exists(obj_timeControl)) {
 	instance_create_layer(x, y, "lay_config", obj_timeControl);
 }
+//----------------------------------------------
+
+//---Exibir camada 'Colisao'--------------------
+layer_set_visible("Colisao", true);
+//----------------------------------------------
 
 //---Mudar FPS entre 60 e 30--------------------
 if (keyboard_check_pressed(vk_numpad7))	{
@@ -28,9 +33,15 @@ if (keyboard_check_pressed(vk_numpad8))	{
 
 } else {
 
+//---Parar de Controlar o Relogio---------------
 if (instance_exists(obj_timeControl)) {
 	instance_destroy(obj_timeControl);
 }
+//----------------------------------------------
+
+//---Ocultar camada 'Colisao'-------------------
+layer_set_visible("Colisao", false);
+//----------------------------------------------
 
 }
 
