@@ -37,11 +37,11 @@ if (dialogando) {
 	if (DialogueInacio4) {
 		if (resposta == 0) {
 			DialogueBox(90, "Meu tio que me estuprava");
-			timer3 = 60 * 1;
+			timer3 = 90 * 1;
 			DialogueInacio4 = false;
 		} else if (resposta == 1){
 			DialogueBox(90, "Nossa...", "Não precisava ser tão arrogante!");
-			timer3 = 60 * 2;
+			timer3 = 90 * 2;
 			DialogueInacio4 = false;
 		}
 		resposta = 666;
@@ -64,11 +64,11 @@ if (dialogando) {
 	
 	if (DialogueInacio6) {
 		if (resposta == 0) {
-			DialogueBox(60, "A rifa do meu cu na sua linguiça!");
+			DialogueBox(90, "A rifa do meu cu na sua linguiça!");
 			timer4 = 90 * 1;
 			DialogueInacio6 = false;
 		} else if (resposta == 1){
-			DialogueBox(60, "Você é bem chato ein!?");
+			DialogueBox(90, "Você é bem chato ein!?");
 			timer4 = 90 * 1;
 			DialogueInacio6 = false;
 		}
