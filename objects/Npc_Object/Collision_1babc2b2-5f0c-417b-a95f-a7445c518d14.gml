@@ -1,7 +1,7 @@
 if (!obj_config.jogoPausado) {
 
 if (!dialogando) {
-	if (keyboard_check_pressed(ord("E"))){
+	if (keyboard_check_pressed(vk_enter)){
 		dialogando = true;
 	}
 }

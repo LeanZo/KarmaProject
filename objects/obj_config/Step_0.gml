@@ -41,5 +41,5 @@ if (keyboard_check_pressed(vk_escape)) {
 //------------------------------
 
 //---Reinicia o Jogo------------
-if(keyboard_check_pressed(vk_enter)) game_restart();
+if(keyboard_check_pressed(vk_f1)) game_restart();
 //------------------------------

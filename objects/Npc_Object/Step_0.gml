@@ -1,11 +1,15 @@
 if (dialogando) {
 
 	if (DialogueInacio){
-		DialogueBox(60, "Oi, tudo bem?", "Vamos testar", "A nova Fonte!!!");
+		DialogueBox(60, "Oi, tudo bem?", "Você é novo aqui?", "Você parece legal");
 		timer = 60 * 3;
 		DialogueInacio = false;
 		DialogueInacio2 = false;
-		DialogueInacio2Resp = false;
+		DialogueInacio3 = false;
+		DialogueInacio4 = false;
+		DialogueInacio5 = false;
+		DialogueInacio6 = false;
+		DialogueInacio7 = false;
 	}
 	
 	timer--;
@@ -14,19 +18,79 @@ if (dialogando) {
 	}
 	
 	if (DialogueInacio2) {
-		DialogueBoxEscolha("O que voce acha do meu jogo?", "Dahorinha", "Uma porcaria");	
-		DialogueInacio2Resp = true;
+		DialogueBoxInputText("Qual o seu nome?", 0);	
 		DialogueInacio2 = false;
+		DialogueInacio3 = true;		
 	}
 
-	if (DialogueInacio2Resp) {
+	if (DialogueInacio3 && inputTextDone) {
+		DialogueBoxEscolha("Sabe quem tambem se chama " + inputvar[0] + "?", "Quem?", "Não estou interessado");
+		DialogueInacio3 = false;
+			
+	}
+	
+	if (!controle1) {
+		DialogueInacio4 = true;
+		controle1 = true;
+	}
+	
+	if (DialogueInacio4) {
 		if (resposta == 0) {
-			DialogueBox(60, "Que topzera!", "Sabia que ia gostar!");
+			DialogueBox(90, "Meu tio que me estuprava");
+			timer3 = 60 * 1;
+			DialogueInacio4 = false;
+		} else if (resposta == 1){
+			DialogueBox(90, "Nossa...", "Não precisava ser tão arrogante!");
+			timer3 = 60 * 2;
+			DialogueInacio4 = false;
+		}
+		resposta = 666;
+	}
+	
+	timer3--;
+	if	(timer3 == 0) {
+			DialogueInacio5 = true;
+	}
+	
+	if (DialogueInacio5) {
+		DialogueBoxEscolha("Enfim, Ta interessado na rifa?", "Que rifa?", "Não, obrigado");
+		DialogueInacio5 = false;
+	}
+	
+	if (!controle2) {
+		DialogueInacio6 = true;
+		controle2 = true;
+	}
+	
+	if (DialogueInacio6) {
+		if (resposta == 0) {
+			DialogueBox(60, "A rifa do meu cu na sua linguiça!");
+			timer4 = 90 * 1;
+			DialogueInacio6 = false;
+		} else if (resposta == 1){
+			DialogueBox(60, "Você é bem chato ein!?");
+			timer4 = 90 * 1;
+			DialogueInacio6 = false;
+		}
+	}
+	
+	timer4--;
+	if	(timer4 == 0) {
+		DialogueInacio7 = true;
+	}
+	
+	if (DialogueInacio7) {
+		if (resposta == 0) {
+			DialogueBox(60, "hahahaha");
+			timer5 = 60 * 1;
 			dialogando = false;
 		} else if (resposta == 1){
-			DialogueBox(60, "Ah, va se ferrar meu!", "Muleke ridiculo!", "SO ME DA KEY!");
+			DialogueBox(60, "Vai embora meu");
+			timer5 = 60 * 1;
 			dialogando = false;
 		}
+	
 	}
 
 }
+

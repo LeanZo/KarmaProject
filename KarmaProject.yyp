@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "14c37771-b09e-44a7-9ed3-da4ef227eaba",
+            "Value": {
+                "id": "4509f96a-0143-4968-9ed9-1e7feabfd9d6",
+                "resourcePath": "sprites\\ind_dialogueBoxInputText\\ind_dialogueBoxInputText.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "14f8e20c-0636-4f7f-aa1b-e29cd71a35c0",
             "Value": {
                 "id": "517d94f2-3427-4d45-9682-08a2d3dbcf19",
@@ -84,6 +92,14 @@
                 "id": "6ea8779f-e4b4-4528-b043-b9314fa46297",
                 "resourcePath": "views\\1a683937-dfc2-4089-a2be-47886906de36.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1b16ec3f-00f6-4e34-89a9-cb9bf1f5219f",
+            "Value": {
+                "id": "cf104168-f44a-45a3-aea8-24eb2a6a228f",
+                "resourcePath": "objects\\obj_dialogueBoxInputText\\obj_dialogueBoxInputText.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -428,6 +444,14 @@
                 "id": "f54efec3-d8b5-4429-9846-7cd7f966602f",
                 "resourcePath": "sprites\\m_Sair\\m_Sair.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "77bc6d6e-c806-404c-aa8a-3ce80a83dab7",
+            "Value": {
+                "id": "857908cb-8b64-464f-81bb-ff36702c6335",
+                "resourcePath": "scripts\\DialogueBoxInputText\\DialogueBoxInputText.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1022,6 +1046,7 @@
         "e962b137-30eb-403c-bfd1-45473b82e6ce",
         "373ceec6-25c3-4a41-89f1-3698f17f7c41",
         "f0d283b7-70a1-45ec-b2f6-796aa7329a45",
+        "77bc6d6e-c806-404c-aa8a-3ce80a83dab7",
         "de9923f2-18f2-4f64-9d77-5b6950c6e8a4"
     ],
     "tutorial": ""
