@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "5b42c37d-0a5c-40f2-afeb-e24b27f1171a",
+            "Value": {
+                "id": "77c7df46-818e-44c2-ac93-c55f79317a31",
+                "resourcePath": "sprites\\spr_karmaBG\\spr_karmaBG.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5c0d3702-2f65-4121-92fe-c8f5bcefa4ce",
             "Value": {
                 "id": "56387468-e2f0-4ca2-a95a-f7fad7bc03a0",
