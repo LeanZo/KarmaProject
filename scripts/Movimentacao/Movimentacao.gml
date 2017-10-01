@@ -6,7 +6,7 @@ dx = 0;
 
 
 //----Stamina IF's--------------------------------------------
-if (!keyboard_check(vk_shift)) {stamina_is_using = false; stamina_ready = true;}
+if (!other.pressed_SHIFT) {stamina_is_using = false; stamina_ready = true;}
 
 if (stamina == 0 && stamina_is_using) {stamina_is_using = false; stamina_ready = false;}
 
@@ -23,8 +23,8 @@ moving = false;
 if (indexParadoTimer = 0) image_index = choose (0,2);
 
 //Inicia animação e indica qual movimento deve ser feito
-if ( keyboard_check(ord("A")) && !moving ) {
-    if (keyboard_check(vk_shift) && stamina > 0 && stamina_ready) {dx -= 1 * skill_aerobica; stamina -= 0.5; stamina_is_using = true;}
+if ( other.pressed_ESQ && !moving ) {
+    if (other.pressed_SHIFT && stamina > 0 && stamina_ready) {dx -= 1 * skill_aerobica; stamina -= 0.5; stamina_is_using = true;}
 	moving = true;
 	dy = 0;
 	dx -= 2;//3 <- quando rodando a 30 FPS
@@ -33,8 +33,8 @@ if ( keyboard_check(ord("A")) && !moving ) {
 	indexParadoTimer = 20;//10 <- quando rodando a 30 FPS
 	dir = DIR_LEFT;
 }
-if ( keyboard_check(ord("D")) && !moving ) {
-    if (keyboard_check(vk_shift) && stamina > 0 && stamina_ready) {dx += 1 * skill_aerobica; stamina -= 0.5; stamina_is_using = true;}
+if ( other.pressed_DIR && !moving ) {
+    if (other.pressed_SHIFT && stamina > 0 && stamina_ready) {dx += 1 * skill_aerobica; stamina -= 0.5; stamina_is_using = true;}
 	moving = true;
 	dy = 0;
 	dx += 2;
@@ -43,8 +43,8 @@ if ( keyboard_check(ord("D")) && !moving ) {
 	indexParadoTimer = 20;
 	dir = DIR_RIGHT;
 }
-if ( keyboard_check(ord("W")) && !moving ) {
-    if (keyboard_check(vk_shift) && stamina > 0 && stamina_ready) {dy -= 1 * skill_aerobica; stamina -= 0.5; stamina_is_using = true;}
+if ( other.pressed_UP && !moving ) {
+    if (other.pressed_SHIFT && stamina > 0 && stamina_ready) {dy -= 1 * skill_aerobica; stamina -= 0.5; stamina_is_using = true;}
     moving = true;
 	dy -= 2;
 	dx = 0;
@@ -53,8 +53,8 @@ if ( keyboard_check(ord("W")) && !moving ) {
 	indexParadoTimer = 20;
 	dir = DIR_UP;
 }
-if ( keyboard_check(ord("S")) && !moving ) {
-    if (keyboard_check(vk_shift) && stamina > 0 && stamina_ready) {dy += 1 * skill_aerobica; stamina -= 0.5; stamina_is_using = true;}
+if ( other.pressed_DOWN && !moving ) {
+    if (other.pressed_SHIFT && stamina > 0 && stamina_ready) {dy += 1 * skill_aerobica; stamina -= 0.5; stamina_is_using = true;}
     moving = true;
 	dy += 2;
 	dx = 0;

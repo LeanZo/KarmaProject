@@ -1,3 +1,5 @@
+randomize();
+
 //---Variaveis--------------------
 jogoPausado = false; //VAriavel que determina se o jogo esta pausado ou não
 //--------------------------------
